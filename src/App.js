@@ -9,6 +9,7 @@ import HooksIcecreamContainer from './components/HooksIcecreamContainer'
 import NewCakeContainer from './components/NewCakeContainer'
 import ItemContainer from './components/ItemContainer'
 import NewIceCreamContainer from './components/NewIceCreamContainer'
+import HooksNewIceCreamContainer from './components/HooksNewIceCreamContainer'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <HooksIcecreamContainer />
           <NewCakeContainer />
           <NewIceCreamContainer />
+          <HooksNewIceCreamContainer />
         </div>
       </Provider>
   );
