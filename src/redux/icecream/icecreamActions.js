@@ -1,7 +1,8 @@
 import { BUY_ICECREAM } from './icecreamTypes'
 
-export function buyIcecream () {
+export function buyIcecream (number = 1) {
   return {
-    type: BUY_ICECREAM
+    type: BUY_ICECREAM,
+    payload: number
   }
 }
